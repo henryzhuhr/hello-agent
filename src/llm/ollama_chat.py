@@ -63,8 +63,6 @@ def test_ollama():
     response: AIMessage = chat_model.invoke(conversation)
     print(f"🤖 ai: {response.model_dump_json()}")
 
-    return
-
     # 1. 主要内容
     # response.content  # str - AI 的回复文本
     # response.response_metadata  # dict - 响应元数据
