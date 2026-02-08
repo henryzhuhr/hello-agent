@@ -23,7 +23,13 @@ from pydantic import SecretStr
 
 
 def get_default_apikey() -> str:
-    return os.getenv("DASHSCOPE_API_KEY", "")
+    apikey = os.getenv("DASHSCOPE_API_KEY", "")
+    if apikey == "":
+        secret_apikey = ""
+    else:
+        secret_apikey = f"{apikey[: 3 + 4]}****{apikey[-4:]}"
+    print(f"Using DASHSCOPE_API_KEY: {secret_apikey}")
+    return apikey
 
 
 def init_qwen_chatmodel(

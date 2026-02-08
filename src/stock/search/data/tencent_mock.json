@@ -1,0 +1,514 @@
+{
+  "code": 0,
+  "msg": "",
+  "data": {
+    "sector": [],
+    "manager": [],
+    "stock": [
+      [
+        "sh",
+        "601899",
+        "紫金矿业",
+        "",
+        "GP-A"
+      ],
+      [
+        "hk",
+        "02899",
+        "紫金矿业",
+        "",
+        "GP"
+      ],
+      [
+        "us",
+        "ZIJMY.PS",
+        "紫金矿业",
+        "",
+        "GP"
+      ],
+      [
+        "us",
+        "ZIJMF.PS",
+        "紫金矿业",
+        "",
+        "GP"
+      ]
+    ],
+    "ipoFlag": false,
+    "relatedFund": [
+      {
+        "symbol": [
+          "sh",
+          "601899",
+          "紫金矿业",
+          "",
+          "GP-A",
+          "0"
+        ],
+        "fund": [
+          {
+            "jjdm": "jj161217",
+            "jjjc": "国投瑞银中证资源指数(LOF)A",
+            "cgbl": "持有比例17.76%",
+            "smartbox_type": "LOF",
+            "cgbl_value": "17.76",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj021461",
+            "jjjc": "国投瑞银中证资源指数(LOF)C",
+            "cgbl": "持有比例17.76%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "17.76",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj160221",
+            "jjjc": "国泰国证有色金属行业指数A",
+            "cgbl": "持有比例14.60%",
+            "smartbox_type": "LOF",
+            "cgbl_value": "14.60",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj015596",
+            "jjjc": "国泰国证有色金属行业指数C",
+            "cgbl": "持有比例14.60%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "14.60",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj011607",
+            "jjjc": "民生加银中证内地资源指数C",
+            "cgbl": "持有比例14.58%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "14.58",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj690008",
+            "jjjc": "民生加银中证内地资源指数A",
+            "cgbl": "持有比例14.58%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "14.58",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj165520",
+            "jjjc": "中信保诚中证800有色指数(LOF)A",
+            "cgbl": "持有比例14.47%",
+            "smartbox_type": "LOF",
+            "cgbl_value": "14.47",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj013081",
+            "jjjc": "中信保诚中证800有色指数(LOF)C",
+            "cgbl": "持有比例14.47%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "14.47",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj023593",
+            "jjjc": "中信保诚中证800有色指数(LOF)E",
+            "cgbl": "持有比例14.47%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "14.47",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj021958",
+            "jjjc": "南方黄金股指数A",
+            "cgbl": "持有比例11.07%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "11.07",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj021959",
+            "jjjc": "南方黄金股指数C",
+            "cgbl": "持有比例11.07%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "11.07",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj021362",
+            "jjjc": "易方达中证沪深港黄金产业股票指数发起式A",
+            "cgbl": "持有比例10.99%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.99",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj021363",
+            "jjjc": "易方达中证沪深港黄金产业股票指数发起式C",
+            "cgbl": "持有比例10.99%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.99",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj021874",
+            "jjjc": "中欧中证沪深港黄金产业股票指数发起C",
+            "cgbl": "持有比例10.87%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.87",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj021873",
+            "jjjc": "中欧中证沪深港黄金产业股票指数发起A",
+            "cgbl": "持有比例10.87%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.87",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj011800",
+            "jjjc": "申万菱信价值精选混合A",
+            "cgbl": "持有比例10.60%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.60",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj015158",
+            "jjjc": "申万菱信价值精选混合C",
+            "cgbl": "持有比例10.60%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.60",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj006101",
+            "jjjc": "平安优势产业混合C",
+            "cgbl": "持有比例10.51%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.51",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj006100",
+            "jjjc": "平安优势产业混合A",
+            "cgbl": "持有比例10.51%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.51",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj002624",
+            "jjjc": "广发优企精选混合A",
+            "cgbl": "持有比例10.47%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.47",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj010021",
+            "jjjc": "广发优企精选混合C",
+            "cgbl": "持有比例10.47%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.47",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj270008",
+            "jjjc": "广发核心精选混合",
+            "cgbl": "持有比例10.46%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.46",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj270025",
+            "jjjc": "广发行业领先混合A",
+            "cgbl": "持有比例10.40%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.40",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj003717",
+            "jjjc": "中银量化精选混合A",
+            "cgbl": "持有比例10.27%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.27",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj000167",
+            "jjjc": "广发聚优灵活配置混合A",
+            "cgbl": "持有比例10.26%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.26",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj011866",
+            "jjjc": "广发价值增长混合A",
+            "cgbl": "持有比例10.23%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.23",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj011867",
+            "jjjc": "广发价值增长混合C",
+            "cgbl": "持有比例10.23%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.23",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj023036",
+            "jjjc": "中欧资源精选混合发起A",
+            "cgbl": "持有比例10.22%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.22",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj023037",
+            "jjjc": "中欧资源精选混合发起C",
+            "cgbl": "持有比例10.22%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.22",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj018290",
+            "jjjc": "广发龙头优选混合C",
+            "cgbl": "持有比例10.19%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.19",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj005910",
+            "jjjc": "广发龙头优选混合A",
+            "cgbl": "持有比例10.19%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.19",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj011132",
+            "jjjc": "鹏扬沪深300质量成长低波动指数A",
+            "cgbl": "持有比例10.17%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.17",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj011133",
+            "jjjc": "鹏扬沪深300质量成长低波动指数C",
+            "cgbl": "持有比例10.17%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.17",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj000619",
+            "jjjc": "东方红产业升级",
+            "cgbl": "持有比例10.17%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.17",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj011428",
+            "jjjc": "广发价值驱动混合C",
+            "cgbl": "持有比例10.17%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.17",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj011427",
+            "jjjc": "广发价值驱动混合A",
+            "cgbl": "持有比例10.17%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.17",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj011758",
+            "jjjc": "广发逆向策略灵活配置混合C",
+            "cgbl": "持有比例10.10%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.10",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj000747",
+            "jjjc": "广发逆向策略灵活配置混合A",
+            "cgbl": "持有比例10.10%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.10",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj000925",
+            "jjjc": "汇添富外延增长主题股票A",
+            "cgbl": "持有比例10.09%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.09",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj011424",
+            "jjjc": "汇添富外延增长主题股票C",
+            "cgbl": "持有比例10.09%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.09",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj012068",
+            "jjjc": "嘉实蓝筹优势混合C",
+            "cgbl": "持有比例10.03%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.03",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj012067",
+            "jjjc": "嘉实蓝筹优势混合A",
+            "cgbl": "持有比例10.03%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.03",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj012225",
+            "jjjc": "嘉实优势精选混合A",
+            "cgbl": "持有比例10.02%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.02",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj012226",
+            "jjjc": "嘉实优势精选混合C",
+            "cgbl": "持有比例10.02%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.02",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj005612",
+            "jjjc": "嘉实核心优势股票",
+            "cgbl": "持有比例10.02%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.02",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj013859",
+            "jjjc": "宝盈品质甄选混合A",
+            "cgbl": "持有比例10.00%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.00",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj013860",
+            "jjjc": "宝盈品质甄选混合C",
+            "cgbl": "持有比例10.00%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "10.00",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj270002",
+            "jjjc": "广发稳健增长混合A",
+            "cgbl": "持有比例9.99%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "9.99",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj009326",
+            "jjjc": "广发稳健增长混合C",
+            "cgbl": "持有比例9.99%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "9.99",
+            "kjy": true
+          },
+          {
+            "jjdm": "jj001008",
+            "jjjc": "工银国企改革股票",
+            "cgbl": "持有比例9.87%",
+            "smartbox_type": "KJ",
+            "cgbl_value": "9.87",
+            "kjy": true
+          }
+        ]
+      }
+    ],
+    "news": {
+      "news_list": [
+        {
+          "news_id": "SN20260207172526a487aae1",
+          "news_title": "57岁徐碧良成四川黄金副总，职业生涯长期扎根紫金矿业",
+          "publish_time": 1770455953,
+          "summary": "",
+          "media_id": 2609,
+          "media_name": "红星新闻",
+          "type": 2,
+          "source": "红星新闻",
+          "class_name": "tensor_title",
+          "images": [],
+          "hit_search": [
+            "紫金矿业"
+          ]
+        },
+        {
+          "news_id": "SN20260206155445a483a185",
+          "news_title": "2月6日沪深主板成交额前十大个股，紫金矿业居首",
+          "publish_time": 1770363511,
+          "summary": "",
+          "media_id": 785188,
+          "media_name": "证券之星",
+          "type": 2,
+          "source": "证券之星",
+          "class_name": "tensor_title",
+          "images": [],
+          "hit_search": [
+            "紫金矿业"
+          ]
+        },
+        {
+          "news_id": "SN20260206152332a4838037",
+          "news_title": "280亿买非洲三座大金矿！紫金矿业豪赌全球金矿巨头地位",
+          "publish_time": 1770362503,
+          "summary": "",
+          "media_id": 466621,
+          "media_name": "Ofweek维科网",
+          "type": 2,
+          "source": "Ofweek维科网",
+          "class_name": "tensor_title",
+          "images": [],
+          "hit_search": [
+            "紫金矿业"
+          ]
+        }
+      ],
+      "has_next": 1,
+      "req_session": "1770565500",
+      "next_offset": 3,
+      "mix_type": 1
+    },
+    "xuangu": {
+      "has_next": 0,
+      "data": []
+    },
+    "edu": {},
+    "user": null,
+    "isUnsupportedExist": false,
+    "function": []
+  }
+}

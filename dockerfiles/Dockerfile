@@ -14,7 +14,8 @@ FROM ubuntu:24.04
 #        - locales                  语言环境
 #        - zsh                      shell
 # ============================================================
-ARG BASE_INSTALL_LIST="ubuntu-server"
+ARG BASE_INSTALL_LIST=""
+ARG BASE_INSTALL_LIST="$BASE_INSTALL_LIST ubuntu-server"
 ARG BASE_INSTALL_LIST="$BASE_INSTALL_LIST ca-certificates locales"
 ARG BASE_INSTALL_LIST="$BASE_INSTALL_LIST zsh"
 
