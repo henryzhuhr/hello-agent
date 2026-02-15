@@ -27,8 +27,6 @@ class TencentStockSearcher(BaseStockSearcher):
 
     logger: Logger
     """ Logger 对象，用于记录日志 """
-    mock: bool
-    """ mock 模式下会从本地文件读取数据，而不是调用实际 API """
 
     def __init__(self, logger: Optional[Logger] = None, mock: bool = False) -> None:
         super().__init__()
@@ -74,18 +72,9 @@ class TencentStockSearcher(BaseStockSearcher):
         params: Dict[str, Any] = {},
         mock=False,
     ) -> Dict[str, Any]:
-        if mock:
-            return self._call_mock_api()
         response = requests.get(url, params=params)
         response.raise_for_status()
         return response.json()
-
-    def _call_mock_api(self):
-        # 从本地文件读取模拟数据
-        with open(
-            "src/stock/search/data/tencent_mock.json", "r", encoding="utf-8"
-        ) as f:
-            return json.load(f)
 
     def _parse_to_stock_info(self, stock_item: list) -> Optional[StockInfo]:
         """
@@ -102,6 +91,29 @@ class TencentStockSearcher(BaseStockSearcher):
             market=StockMarket(stock_item[0].upper()),
             abbreviation=stock_item[3],
         )
+
+    def _parse_market(self, market_str: str) -> Optional[StockMarket]:
+        """
+        将字符串市场代码转换为StockMarket枚举
+
+        Args:
+            market_str: 市场代码字符串
+
+        Returns:
+            对应的StockMarket枚举值，无法匹配则返回None
+        """
+        market_map = {
+            "sh": StockMarket.SH,
+            "sz": StockMarket.SZ,
+            "hk": StockMarket.HK,
+            "us": StockMarket.US,
+        }
+
+        return market_map.get(market_str.lower())
+
+    def get_stock_info(self, stock_code: str) -> StockInfo:
+        raise NotImplementedError
+
 
 
 def get_tencent_hk_stock_data(codes: List[str]) -> List[Dict[str, Any]]:
