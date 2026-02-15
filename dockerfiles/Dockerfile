@@ -1,7 +1,12 @@
 # Get the base image
-ARG UV_VERSION=0.8.8
+ARG UV_TAG=latest
+ARG GO_TAG=latest
+ARG NODE_TAG=latest
 
-FROM ghcr.io/astral-sh/uv:${UV_VERSION} AS uv-builder
+
+FROM ghcr.io/astral-sh/uv:${UV_TAG} AS uv-builder
+FROM golang:${GO_TAG} AS golang-builder
+FROM node:${NODE_TAG} AS node-builder
 
 FROM ubuntu:24.04
 
@@ -98,7 +103,6 @@ ARG USER_HOME="/${USER_NAME}"
 #   ⬇️ 扩展 Dockerfile
 # ============================================================
 
-
 # ============================================================
 #   Python 环境
 # ============================================================
@@ -125,3 +129,16 @@ RUN echo ": $(date +%s):0;zsh scripts/init.sh" >> $USER_HOME/.zsh_history
 
 # 提升虚拟环境 python 的优先级
 ENV VIRTUAL_ENV_DISABLE_PROMPT=1
+
+# ============================================================
+#   Node.js 环境
+# ============================================================
+COPY --from=node-builder /usr/local/ /usr/local/
+# RUN npm install -g @openai/codex
+
+# ============================================================
+#   Golang 环境
+# ============================================================
+COPY --from=golang-builder /usr/local/go /usr/local/go
+ENV PATH="/usr/local/go/bin:$PATH"
+ENV PATH="$USER_HOME/go/bin:$PATH"

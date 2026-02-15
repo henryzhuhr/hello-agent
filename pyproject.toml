@@ -14,6 +14,8 @@ dependencies = [
     "langchain-text-splitters>=1.1.0",
     "langgraph>=1.0.8",
     "loguru>=0.7.3",
+    "python-socks[asyncio]>=2.8.0",
+    "websockets>=16.0",
 ]
 
 [tool.setuptools]
@@ -22,9 +24,17 @@ package-dir = {"" = "src"}
 [tool.setuptools.packages.find]
 where = ["src"]
 
+[project.optional-dependencies]
+cache = [
+    "redis>=7.1.1",
+]
+dev = [
+    "pytest>=9.0.2",
+]
+
 [[tool.uv.index]]
 url = "https://mirrors.cloud.tencent.com/pypi/simple/"
 default = true
 
 [[tool.uv.index]]
-url = "https://mirrors.ustc.edu.cn/pypi/simple/"
+url = "https://mirrors.ustc.edu.cn/pypi/simple"

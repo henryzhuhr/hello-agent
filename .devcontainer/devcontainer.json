@@ -34,6 +34,9 @@
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
+			"extensions": [
+				"charliermarsh.ruff"
+			]
 		}
 	}
 

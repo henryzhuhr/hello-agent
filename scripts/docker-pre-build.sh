@@ -2,10 +2,14 @@
 # 预先构建项目镜像的脚本，加快 docker compose up 的速度
 
 IMAGE_NAME=hello-agent
-IMAGE_TAG=1.0.0
+IMAGE_TAG=1.0.3
+# IMAGE_TAG=$(date +%Y%m%d%H%M%S)
 
 # uv: https://github.com/astral-sh/uv/pkgs/container/uv
-UV_VERSION=0.10.0
+UV_TAG=0.10.0
+NODE_TAG=24
+GO_TAG=1.25
+
 
 MIRRORS_URL="mirrors.ustc.edu.cn"
 CLEAN_APT_CACHE=1
@@ -14,7 +18,9 @@ CLEAN_APT_CACHE=1
 # 镜像列表（格式：镜像名:标签）
 IMAGES=(
   "ubuntu:24.04"
-  "ghcr.io/astral-sh/uv:${UV_VERSION}"
+  "ghcr.io/astral-sh/uv:${UV_TAG}"
+  "golang:${GO_TAG}"
+  "node:${NODE_TAG}"
 )
 
 for IMAGE in "${IMAGES[@]}"; do
@@ -32,7 +38,9 @@ for IMAGE in "${IMAGES[@]}"; do
 done
 
 docker build -t ${IMAGE_NAME}:${IMAGE_TAG} -f dockerfiles/Dockerfile \
-  --build-arg UV_VERSION=${UV_VERSION} \
+  --build-arg UV_TAG=${UV_TAG} \
+  --build-arg GO_TAG=${GO_TAG} \
+  --build-arg NODE_TAG=${NODE_TAG} \
   --build-arg MIRRORS_URL=${MIRRORS_URL} \
   --build-arg CLEAN_APT_CACHE=${CLEAN_APT_CACHE} \
   --no-cache .
